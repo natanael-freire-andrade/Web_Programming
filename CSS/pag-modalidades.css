@@ -1,0 +1,29 @@
+*{
+    margin: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(223, 223, 223);
+}
+div{
+    display: inline-block;
+}
+.subtitulomodalidades{
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+hr{
+    height: 2px; 
+    border-width: 0; 
+    background-color: gray
+}
+.titulomodalidades{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-image: url("1.jpg");
+    font-size: 60px;
+}
+.ulModalidades{
+    font-size: 30px;
+}
