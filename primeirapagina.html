@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylePrimeiraPag.css">
 </head>
 <body>
-    <nav>
-        <img src="img/logo.png" alt="logo">
+    <nav id="topo">
+        <img src="img/logone.png" alt="logo">
         <ul class="menu">
             <li><a href="/">HOME</a></li>
             <li><a href="/">PRODUTOS</a></li>
@@ -17,21 +22,39 @@
         </ul>
     </nav>
 
-    <section>
-        <img src="img/girl.jpg" alt="fundo">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Sint placeat illo eius sunt quaerat, nesciunt nobis, ipsum doloribus cum accusamus minus culpa unde facere aliquid exercitationem. 
-            Voluptate, sit odio! Earum.
-        </p>
+    <section id="marketing">
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Sint placeat illo eius sunt quaerat, nesciunt nobis, ipsum doloribus cum accusamus minus culpa unde facere aliquid exercitationem. 
+                Voluptate, sit odio! Earum.
+            </p>
+        </div>
+    </section>
+
+    <section id="contato">
+		<h2>Contato</h2>
+		<p>Vem falar com a gente</p>
+
+		<div>
+			<img src="img/face.png" alt="facebook">
+			<p><a href="facebook.com">MiaAcademia</a></p>
+		</div>
+
+		<div>
+			<img src="img/telefoneico.png" alt="telefone">
+			<p><a href="tel:(87)7841226324">(87)99939-2054</a></p>
+		</div>
+
+        <div>
+            <img src="img/tw.png" alt="twitter">
+            <p><a href="twitter.com"></a>@miaAcademia</p>
+        </div>
     </section>
 
     <footer>
-        <ul>
-            <li><img src="/img/telefoneico.png" alt="Telefone"></li>
-            <li><img src="/img/face.png" alt="Facebook"></li>
-            <li><img src="/img/tw.png" alt="Twitter"></li>
-        </ul>
-    </footer>
+		<a href="#topo">VOLTAR</a>
+		<p>@Copyrigth</p>
+	</footer>
 </body>
 </html>
