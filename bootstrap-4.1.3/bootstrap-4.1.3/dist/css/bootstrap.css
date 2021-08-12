@@ -2007,6 +2007,12 @@ textarea.form-control {
   margin-left: 0;
 }
 
+.list-group{
+  font-size: 30px;
+  font-family: Spartan, sans-serif;
+  color: #000;
+}
+
 .valid-feedback {
   display: none;
   width: 100%;
