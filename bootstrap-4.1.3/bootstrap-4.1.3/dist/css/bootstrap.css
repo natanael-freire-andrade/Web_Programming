@@ -5866,8 +5866,23 @@ button.close {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: black;
-  
+  color: black;  
+}
+
+.singlecolorProd{
+  background-image: linear-gradient(to bottom, rgb(181, 248, 11), #B9BC18, rgb(49, 25, 25));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #B9BC18;
+}
+
+.gradientProd{
+  background-image: linear-gradient(to bottom, rgb(181, 248, 11), #B9BC18, rgb(49, 25, 25));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black; 
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
