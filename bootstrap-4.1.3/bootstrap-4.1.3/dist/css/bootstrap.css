@@ -5839,6 +5839,33 @@ button.close {
   transition: transform 0.6s ease, -webkit-transform 0.6s ease;
 }
 
+.carousel-item.active h5{
+  font-size: 40px;
+  font-family: Faster One, sans-serif;
+}
+
+.carousel-item.active p{
+  font-size: 50px;
+  font-family: Faster One, cursive;
+}
+
+.singlecolor{
+  background-image: linear-gradient(to bottom, rgb(181, 248, 11), #B9BC18, rgb(8, 8, 8));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #B9BC18;
+}
+
+.gradient{
+  background-image: linear-gradient(to bottom, rgb(181, 248, 11), #B9BC18, rgb(8, 8, 8));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
   .carousel-item.active,
   .carousel-item-next,
