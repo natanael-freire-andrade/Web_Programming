@@ -60,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, Spartan, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -2005,6 +2005,12 @@ textarea.form-control {
   margin-top: 0;
   margin-right: 0.3125rem;
   margin-left: 0;
+}
+
+.list-group{
+  font-size: 30px;
+  font-family: Spartan, sans-serif;
+  color: #000;
 }
 
 .valid-feedback {
@@ -4060,6 +4066,10 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
+.nav-item{
+  font-size: large;
+}
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -5837,6 +5847,48 @@ button.close {
   transition: -webkit-transform 0.6s ease;
   transition: transform 0.6s ease;
   transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+}
+
+.carousel-item.active h5{
+  font-size: 40px;
+  font-family: Faster One, sans-serif;
+}
+
+.carousel-item.active p{
+  font-size: 50px;
+  font-family: Faster One, cursive;
+}
+
+.singlecolor{
+  background-image: linear-gradient(to bottom, rgb(181, 248, 11), #B9BC18, rgb(8, 8, 8));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #B9BC18;
+}
+
+.gradient{
+  background-image: linear-gradient(to bottom, rgb(181, 248, 11), #B9BC18, rgb(8, 8, 8));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;  
+}
+
+.singlecolorProd{
+  background-image: linear-gradient(to bottom, rgb(181, 248, 11), #B9BC18, rgb(49, 25, 25));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #B9BC18;
+}
+
+.gradientProd{
+  background-image: linear-gradient(to bottom, rgb(181, 248, 11), #B9BC18, rgb(49, 25, 25));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black; 
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
